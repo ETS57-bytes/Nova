@@ -1,6 +1,21 @@
 // tabs.js
+// Register SW immediately so it's ready before iframes load
+const swReadyPromise = navigator.serviceWorker
+  .register("../sw.js?v=2025-04-15", { scope: "/a/" })
+  .then(reg => {
+    if (reg.active) return;
+    const sw = reg.installing || reg.waiting;
+    if (sw) {
+      return new Promise(resolve => {
+        sw.addEventListener("statechange", () => {
+          if (sw.state === "activated") resolve();
+        });
+      });
+    }
+  })
+  .catch(err => console.error("SW registration failed:", err));
+
 window.addEventListener("load", () => {
-  navigator.serviceWorker.register("../sw.js?v=2025-04-15", { scope: "/a/" });
   const form = document.getElementById("fv");
   const input = document.getElementById("input");
   if (form && input) {
@@ -193,7 +208,8 @@ document.addEventListener("DOMContentLoaded", event => {
   tabList.addEventListener("dragend", () => {
     dragTab = null;
   });
-  createNewTab();
+  // Wait for SW to be ready before creating the first tab
+  swReadyPromise.then(() => createNewTab()).catch(() => createNewTab());
 });
 // Reload
 function reload() {

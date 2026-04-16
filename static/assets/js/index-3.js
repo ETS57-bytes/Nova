@@ -1,8 +1,21 @@
 // index.js
+let swReady = false;
 window.addEventListener("load", () => {
-  navigator.serviceWorker.register("../sw.js?v=2025-04-15", {
-    scope: "/a/",
-  });
+  navigator.serviceWorker
+    .register("../sw.js?v=2025-04-15", { scope: "/a/" })
+    .then(reg => {
+      if (reg.active) {
+        swReady = true;
+        return;
+      }
+      const sw = reg.installing || reg.waiting;
+      if (sw) {
+        sw.addEventListener("statechange", () => {
+          if (sw.state === "activated") swReady = true;
+        });
+      }
+    })
+    .catch(err => console.error("SW registration failed:", err));
 });
 
 let xl;
