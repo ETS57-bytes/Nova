@@ -1,7 +1,7 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/UseInterstellar/Interstellar/main/.github/branding/in.png">
     <p>Serving over 15 million users since 2022.<p>
-    <p>Interstellar is a web proxy with a Clean and Sleek UI and easy to use menus. Our goal is to provide the best user experience to everyone.</p>
+    <p>Nova is a web proxy with a Clean and Sleek UI and easy to use menus. Our goal is to provide the best user experience to everyone.</p>
 </div>
 
 ![inpreview](https://github.com/UseInterstellar/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2)
@@ -9,7 +9,7 @@
 > [!IMPORTANT]
 > If you fork this project, consider giving it a star in the original repository!
 
-**Join Our [Discord Community](https://discord.gg/interstellar) for support, more links, and an active community!**
+**Join Our [Discord Community](https://discord.gg/nova) for support, more links, and an active community!**
 
 ## Features
 
@@ -43,14 +43,14 @@
 You must run these commands on your server:
 
 ```bash
-git clone https://github.com/UseInterstellar/Interstellar
+git clone https://github.com/ETS57-bytes/Interstellar
 cd Interstellar
 ```
 
 #### Ad-Free Deployment
 
 ```bash
-git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
+git clone --branch Ad-Free https://github.com/ETS57-bytes/Interstellar
 cd Interstellar
 ```
 
@@ -90,12 +90,12 @@ cd Interstellar
 git pull --force --allow-unrelated-histories # This may overwrite your local changes
 ```
 
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/UseInterstellar/Interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/UseInterstellar/Interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/ETS57-bytes/Interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/ETS57-bytes/Interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
 ### Deployment Alternatives
 
-For more deployment options, join our [Discord Server](https://discord.gg/interstellar) for various ways to deploy Interstellar.
+For more deployment options, join our [Discord Server](https://discord.gg/nova) for various ways to deploy Nova.
 This includes methods of deploying to Render/OnRender.
 
 #### What happened to Replit Deployment?
@@ -125,17 +125,17 @@ As of January 1st, 2024, Replit is [no longer free](https://blog.replit.com/host
 4. Right-click Visibility and set Port Visibility to Public.
 
 > [!NOTE]
-> We are committed to making Interstellar easy and personalized however, as of now we need your support in making it ad-free. Consider keeping ads so Interstellar can run freely or contribute by being a supporter.
+> We are committed to making Nova easy and personalized however, as of now we need your support in making it ad-free. Consider keeping ads so Nova can run freely or contribute by being a supporter.
 
 ## Report Issues
 
 If you encounter problems, open an issue on GitHub, and we'll address it promptly.
 
 > [!TIP]
-> If you're having trouble, don't hesitate to reach out to us on [Discord](https://discord.gg/interstellar) for personalized support.
+> If you're having trouble, don't hesitate to reach out to us on [Discord](https://discord.gg/nova) for personalized support.
 
 # Credits
 
-A huge thanks goes out to all of the people who have contributed to Interstellar.
+A huge thanks goes out to all of the people who have contributed to Nova.
 
 [![Contributors](https://contrib.rocks/image?repo=UseInterstellar/Interstellar)](https://github.com/UseInterstellar/Interstellar/graphs/contributors)
