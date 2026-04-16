@@ -371,9 +371,6 @@ fetch(path)
       appInd += 1;
     }
 
-    const appsContainer = document.getElementById("apps-container");
-    appsContainer.appendChild(pinnedApps);
-    appsContainer.appendChild(nonPinnedApps);
   })
   .catch(error => {
     console.error("Error fetching JSON data:", error);

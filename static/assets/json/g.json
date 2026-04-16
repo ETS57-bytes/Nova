@@ -20,7 +20,7 @@
   {
     "name": "Fancade",
     "link": "https://play.fancade.com",
-    "image": "/assets/media/icon/fancade.jpg",
+    "image": "/assets/media/icons/fancade.jpg",
     "categories": ["all"]
   },
   {
@@ -1933,19 +1933,19 @@
   {
     "name": "Super Mario Bros.",
     "link": "https://emulator-games.pages.dev/nes/Super Mario Bros.",
-    "image": "/assets/media/icons/emulator/smb.webp",
+    "image": "/assets/media/icons/na.webp",
     "categories": ["all", "emu"]
   },
   {
     "name": "Super Mario Bros. 2",
     "link": "https://emulator-games.pages.dev/nes/Super Mario Bros. 2",
-    "image": "/assets/media/icons/emulator/smb2.webp",
+    "image": "/assets/media/icons/na.webp",
     "categories": ["all", "emu"]
   },
   {
     "name": "Super Mario Bros. 3",
     "link": "https://emulator-games.pages.dev/nes/Super Mario Bros. 3",
-    "image": "/assets/media/icons/emulator/smb3.webp",
+    "image": "/assets/media/icons/na.webp",
     "categories": ["all", "emu"]
   }
 ]

@@ -13,7 +13,7 @@ try {
 
 document.addEventListener("DOMContentLoaded", () => {
   // Blocked Hostnames Check
-  const blockedHostnames = ["gonova.app"];
+  const blockedHostnames = ["gonova.app", "localhost", "127.0.0.1"];
 
   if (!blockedHostnames.includes(window.location.hostname)) {
     const script = document.createElement("script");
